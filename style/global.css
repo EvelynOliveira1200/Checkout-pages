@@ -8,6 +8,7 @@
     --branco: #ffffff;
     --cinza: #4f4f4f;
     --color-detalhes: #e15113;
+    --color-line: #b4b3b3
 }
 
 body{
@@ -115,17 +116,134 @@ blockquote{
     margin-top: 0.5rem;
     margin-top: 0.9rem;
     margin-bottom: 1.4rem;
-    margin-left: 0.5rem;
+    margin-left: 0.6rem;
     rotate: -45deg;
 }
 
 .line{
-    width: 6rem;
+    width: 7rem;
     height: 0.1rem;
-    border: var(--cinza) solid 0.1rem;
+    border: var(--color-line) solid 0.1rem;
+    margin-top: 1.2rem;
+}
+
+.title{
+    font-size: 0.9rem;
+    color: var(--cinza);
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+    margin-left: 7rem;
+    margin-right: 2.5rem;
+    margin-top: 1rem;
+
 }
 
 .order-section{
     width: 50%;
 }
 
+.line-divisao{
+    width: 40rem;
+    border: var(--color-line) solid 0.1rem;
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    margin-left: 9.5rem;
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+}
+
+form fieldset {
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fieldset-contact{
+    display: flex;
+    flex-direction:row;
+}
+
+.fieldset-delivery{
+    display: flex;
+    flex-direction:row;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    margin-bottom: 5px;
+    color: var(--cinza);
+    display: block;
+}
+
+form legend {
+    font-weight: bold;
+    color: var(--cinza);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="date"],
+form input[type="time"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--cinza); 
+    transition: border-color 0.3s;
+    outline: none;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="date"]:focus,
+form input[type="time"]:focus,
+form select:focus,
+form textarea:focus {
+    border-color: var(--color-detalhes); 
+}
+
+form button {
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    background-color: var(--color-details);
+    color: var(--color-primary);
+    border: none;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
+    margin-top: 2.5rem;
+}
+form button {
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    background-color: var(--color-detalhes);
+    color: var(--branco);
+    border: none;
+    width: 100%;
+    height: 4rem;
+    font-size: 1.5rem;
+    border-radius: 0.3125rem; 
+    margin-top: 2.5rem;
+    transition: background-color 0.3s;
+}
