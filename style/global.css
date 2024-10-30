@@ -199,6 +199,10 @@ form legend {
     margin-bottom: 1rem;
 }
 
+.icon-andress {
+    margin-left: 0.5rem;
+}
+
 form input[type="text"],
 form input[type="email"],
 form input[type="number"],
