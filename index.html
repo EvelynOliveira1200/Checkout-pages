@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,132 +8,125 @@
     <link rel="stylesheet" href="style/global.css">
     <script src="https://kit.fontawesome.com/7478fe44cb.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header class="checkout-header"> 
+    <header class="checkout-header">
         <div class="icons">
             <i class="fa-solid fa-arrow-left" style="color: #4f4f4f;"></i>
         </div>
         <div class="container-header">
-        <h1 class="title-header">Checkout</h1>
-        <blockquote><b class="home-color">Homepage</b> / <b class="home-color">Clothing Category</b> / Checkout</blockquote>
-    </div>
+            <h1 class="title-header">Checkout</h1>
+            <blockquote><b class="home-color">Homepage</b> / <b class="home-color">Clothing Category</b> / Checkout
+            </blockquote>
+        </div>
     </header>
     <main class="checkout-main">
         <section class="checkout-section">
             <div class="quadrados">
-            <div class="quadrado1">
-                <h4 class="title-quadrado1">1</h4>
+                <div class="quadrado1">
+                    <h4 class="title-quadrado1">1</h4>
+                </div>
+                <div class="line"></div>
+                <div class="quadrado">
+                    <h4 class="title-quadrado">2</h4>
+                </div>
+                <div class="line"></div>
+                <div class="quadrado">
+                    <h4 class="title-quadrado">3</h4>
+                </div>
             </div>
-            <div class="line"></div>
-            <div class="quadrado">
-                <h4 class="title-quadrado">2</h4>
+            <div class="title">
+                <h2 class="title">Delivery </h2>
+                <h2 class="title">Payment </h2>
+                <h2 class="title">Confirmation </h2>
             </div>
-            <div class="line"></div>
-            <div class="quadrado">
-                <h4 class="title-quadrado">3</h4>
-            </div>
-        </div>
-        <div class="title">
-            <h2 class="title">Delivery </h2>
-            <h2 class="title">Payment </h2>
-            <h2 class="title">Confirmation </h2>
-        </div>
-        <div class="line-divisao"></div>
-       
-
-        <form>
+            <div class="line-divisao"></div>
             <form>
-                <legend>Contact Information</legend>
-                <fieldset class="fieldset-contact">
-                    <div class="form-container">
-                        <label for="first-name">First Name</label>
-                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required maxlength="100">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="contact">
+                        <div class="contact-container">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" placeholder="First Name">
+                        </div>
+                        <div class="contact-container">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" placeholder="Last Name e.g John, Mary">
+                        </div>
                     </div>
-            
-                    <div class="form-container">
-                        <label for="last-name">Last Name</label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required maxlength="100">
-                    </div>
-                </fieldset>
-            
-                <fieldset class="fieldset-contact">
-                    <div class="form-container">
-                        <label for="email">E-mail</label>
-                        <input type="email" id="email" name="email" placeholder="Your email@gmail.com" required>
-                    </div>
-            
-                    <div class="form-container">
-                        <label for="phone">Phone Number</label>
-                        <input type="number" id="phone" name="phone" placeholder="+1-(0000 000 0000)" required>
-                    </div>
-                </fieldset>
-            
-                <legend>Delivery Information</legend>
-                <fieldset class="fieldset-delivery">
-                    <div class="form-container">
-                        <label for="delivery-date">Delivery Date</label>
-                        <input type="date" id="delivery-date" name="delivery-date" required>
-                    </div>
-            
-                    <div class="form-container">
-                        <label for="convenient-time">Convenient Time</label>
-                        <input type="time" id="convenient-time" name="convenient-time" required>
+                    <div class="contact">
+                        <div class="contact-container">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Your email@gmail.com">
+                        </div>
+                        <div class="contact-container">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" id="phone" placeholder="+1-(0000 000 0000)">
+                        </div>
                     </div>
                 </fieldset>
-            
-                <fieldset class="fieldset-delivery">
-                    <div class="form-container">
-                        <label for="city">City</label>
-                        <select id="city" name="city" required>
-                            <option value="sao-paulo">São Paulo</option>
-                            <option value="rio-de-janeiro">Rio de Janeiro</option>
-                            <option value="belo-horizonte">Belo Horizonte</option>
-                            <option value="brasilia">Brasília</option>
-                            <option value="salvador">Salvador</option>
-                            <option value="curitiba">Curitiba</option>
-                            <option value="porto-alegre">Porto Alegre</option>
-                            <option value="fortaleza">Fortaleza</option>
-                            <option value="recife">Recife</option>
-                            <option value="manaus">Manaus</option>
-                            <option value="goiania">Goiânia</option>
-                            <option value="vitoria">Vitória</option>
-                            <option value="florianopolis">Florianópolis</option>
-                            <option value="natal">Natal</option>
-                            <option value="joao-pessoa">João Pessoa</option>
-                            <option value="teresina">Teresina</option>
-                            <option value="aracaju">Aracaju</option>
-                            <option value="maceio">Maceió</option>
-                            <option value="palmas">Palmas</option>
-                            <option value="belem">Belém</option>
-                            <option value="sao-luis">São Luís</option>
-                            <option value="porto-velho">Porto Velho</option>
-                            <option value="rio-branco">Rio Branco</option>
-                            <option value="macapa">Macapá</option>
-                            <option value="boa-vista">Boa Vista</option>
-                            <option value="campo-grande">Campo Grande</option>
-                        </select>
+
+                <fieldset>
+                    <legend>Delivery Information</legend>
+                    <div class="delivery-information">
+                        <div class="delivery-container">
+                            <label for="delivery-date">Delivery Date</label>
+                            <input type="date" id="delivery-date">
+                        </div>
+                        <div class="delivery-container">
+                            <label for="convenient-time">Convenient Time</label>
+                            <input type="text" id="convenient-time" placeholder="1pm-9pm">
+                        </div>
                     </div>
-            
-                    <div class="form-container">
-                        <label for="address">Address</label>
-                        <input type="text" id="address" name="address" placeholder="Click to find Address" required maxlength="100">
-                    </div>
-            
-                    <div class="form-container">
-                        <label for="zip-code">Zip Code</label>
-                        <input type="text" id="zip-code" name="zip-code" placeholder="00000" required>
+                    <div class="delivery-information">
+                        <div class="delivery-container">
+                            <label for="city">City</label>
+                            <select id="city">
+                                <option value="sao-paulo">São Paulo</option>
+                                <option value="rio-de-janeiro">Rio de Janeiro</option>
+                                <option value="belo-horizonte">Belo Horizonte</option>
+                                <option value="brasilia">Brasília</option>
+                                <option value="salvador">Salvador</option>
+                                <option value="curitiba">Curitiba</option>
+                                <option value="porto-alegre">Porto Alegre</option>
+                                <option value="fortaleza">Fortaleza</option>
+                                <option value="recife">Recife</option>
+                                <option value="manaus">Manaus</option>
+                                <option value="goiania">Goiânia</option>
+                                <option value="vitoria">Vitória</option>
+                                <option value="florianopolis">Florianópolis</option>
+                                <option value="natal">Natal</option>
+                                <option value="joao-pessoa">João Pessoa</option>
+                                <option value="teresina">Teresina</option>
+                                <option value="aracaju">Aracaju</option>
+                                <option value="maceio">Maceió</option>
+                                <option value="palmas">Palmas</option>
+                                <option value="belem">Belém</option>
+                                <option value="sao-luis">São Luís</option>
+                                <option value="porto-velho">Porto Velho</option>
+                                <option value="rio-branco">Rio Branco</option>
+                                <option value="macapa">Macapá</option>
+                                <option value="boa-vista">Boa Vista</option>
+                                <option value="campo-grande">Campo Grande</option>
+
+                            </select>
+                        </div>
+                        <div class="delivery-container">
+                            <label for="address">Address</label>
+                            <input type="text" id="address" placeholder="Click to find Address">
+                        </div>
+                        <div class="delivery-container">
+                            <label for="zip-code">Zip code</label>
+                            <input type="text" id="zip-code" placeholder="00000">
+                        </div>
                     </div>
                 </fieldset>
-            
+
                 <button type="submit">Proceed to Payment</button>
             </form>
-        </section>
-  
-        <section class="order-section">
-            <h1>Order</h1>
-        </section>
     </main>
 
 
 </body>
+
 </html>
