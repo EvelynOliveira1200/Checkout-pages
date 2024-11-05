@@ -66,14 +66,14 @@ blockquote{
 }
 
 .checkout-section{
-    width: 50%;
+    width: 60%;
 }
 
 .quadrados{
     display: flex;
     justify-content: space-between;
     width: 48%;
-    margin-left: 15rem;
+    margin-left: 16.5rem;
     margin-top: 1rem;
 }
 
@@ -121,7 +121,7 @@ blockquote{
 }
 
 .line{
-    width: 7rem;
+    width: 9rem;
     height: 0.1rem;
     border: var(--color-line) solid 0.1rem;
     margin-top: 1.2rem;
@@ -133,9 +133,9 @@ blockquote{
     margin-top: 1rem;
     display: flex;
     justify-content: space-between;
-    width: 48%;
-    margin-left: 7rem;
-    margin-right: 2.5rem;
+    width: 58%;
+    margin-left: 7.9rem;
+    margin-right: 4.3rem;
     margin-top: 1rem;
 
 }
@@ -145,19 +145,19 @@ blockquote{
 }
 
 .line-divisao{
-    width: 40rem;
+    width: 46rem;
     border: var(--color-line) solid 0.1rem;
     margin-top: 1.2rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-top: 4rem;
-    margin-left: 9rem;
+    margin-left: 11rem;
 }
 
 form {
     width: 100%;
-    max-width: 40rem;
+    max-width: 50rem;
     margin: 0 auto;
     background-color: var(--branco);
     padding: 2rem;
@@ -232,3 +232,29 @@ form button {
     border-radius: 0.5rem;
     margin-top: 1rem;
 }
+
+.title-principal, h1{
+    font-size: 1.6rem;
+    color: var(--cinza);
+    margin-bottom: 1rem;
+}
+
+.line-delivery {
+    width: 38rem;
+    border: var(--color-line) solid 0.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-title, h2{
+    display: flex;
+    font-size: 1rem;
+    color: var(--cinza);
+    margin-bottom: 1.2rem;
+}
+
+.product-img {
+    width: 7rem;
+    height: 7rem;
+}
+

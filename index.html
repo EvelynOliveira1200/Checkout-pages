@@ -124,7 +124,80 @@
 
                 <button type="submit">Proceed to Payment</button>
             </form>
+        </section>
+
+        <section class="delivery-details">
+            <div class="container-order">
+
+                <div class="title-principal">
+                    <h1>Your Order</h1>
+                    <div class="line-delivery"></div>
+                </div>
+
+                <div class="product-item">
+                    <div class="product-title">
+                        <h2>Vintage Sport Jacket</h2>
+                    </div>
+
+                    <img class="product-img" src="./img/image.png" alt="Roupa Feminina">
+
+                    <div class="product-description">
+                        <p>-Vintage Highschool Jock Bully</p>
+                        <p>-1960 Classic Edition</p>
+                    </div>
+                    
+                    <i class="fa-solid fa-trash-can" style="color: #e15113;"></i>
+                </div>
+
+                <div class="item-order">
+                    <label for="quantity">Quantity</label>
+                    <button class="quantity-button">-</button>
+                    <input type="number" id="quantity" value="2" class="text-order" min="1">
+                    <button class="quantity-button">+</button>
+                </div>
+
+                <div class="form-order">
+                    <form>
+                        <fieldset class="order-form">
+                            <div class="form-container">
+                                <label class="label-form" for="sise">Size</label>
+                                <select name="size" id="size" required>
+                                    <option value="small-size">Small Size</option>
+                                    <option value="medium-size">Medium Size</option>
+                                    <option value="large-size">Large Size</option>
+                                    <option value="x-large-size">X-Large Size</option>
+                                    <option value="xx-large-size">XX-Large Size</option>
+                                </select>
+                            </div>
+                        </fieldset>
+
+                        <fieldset class="order-form">
+                            <div class="form-container">
+                                <label class="label-form" for="color">Color</label>
+                                <select name="color" id="color" required>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                    <option value="Green">Green</option>
+                                    <option value="Yellow">Yellow</option>
+                                    <option value="Purple">Purple</option>
+                                    <option value="black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Pink">Pink</option>
+                                    <option value="Orange">Orange</option>
+                                    <option value="Brown">Brown</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+
+            <div class="line-produtos"></div>
+        </section>
+
+
     </main>
+
 
 
 </body>
