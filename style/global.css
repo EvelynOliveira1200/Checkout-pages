@@ -233,6 +233,12 @@ form button {
     margin-top: 1rem;
 }
 
+
+.container-order {
+    display: flex;
+    flex-direction: column;
+}
+
 .title-principal, h1{
     font-size: 1.6rem;
     color: var(--cinza);
@@ -246,11 +252,21 @@ form button {
     margin-bottom: 1.5rem;
 }
 
+.product-item {
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+    flex-direction: row;
+
+}
+
 .product-title, h2{
     display: flex;
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: var(--cinza);
     margin-bottom: 1.2rem;
+    justify-content: space-between;
+    margin-right: 11rem;
 }
 
 .product-img {
@@ -258,3 +274,99 @@ form button {
     height: 7rem;
 }
 
+.product-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+    color: var(--cinza);
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.item-order {
+    margin-left: 4rem;
+}
+
+.title-quality{
+    font-size: 1.2rem;
+}
+
+.text-order {
+    font-size: 1.2rem;
+    color: var(--cinza);
+}
+
+.item-quantity {
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+
+}
+
+.quantity-button-1,
+.quantity-button-2 {
+    font-size: 1.5rem;
+    background-color: var(--branco);
+    border-radius: 0.2rem;
+    border: var(--color-detalhes) solid 0.1rem;
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.quantity-button-1{
+    font-size: 1.4rem;
+    text-align: center;;
+    color: var(--color-detalhes);
+    margin-bottom: 1rem;
+}
+
+.quantity-button-2{
+    font-size: 1.3rem;
+    text-align: center;
+    align-items: center;
+    color: var(--color-detalhes);
+}
+
+.velue-quantity{
+    font-size: 1.5rem;
+    color: var(--cinza);
+}
+
+.forms-preco-order {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.form-order{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.order-form-1,
+.order-form-2{
+    margin-top: 1rem;
+    width: 9rem;
+    height: 3rem;
+}
+
+.label-form{
+    font-size: 1.2rem;
+    color: var(--cinza);
+}
+
+.preco {
+    font-size: 1.2rem;
+}
+
+.line-order {
+    width: 38rem;
+    border: var(--color-line) solid 0.1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.5rem;
+}
