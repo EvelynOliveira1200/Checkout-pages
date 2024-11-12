@@ -1,206 +1,198 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --branco: #ffffff;
-    --cinza: #4f4f4f;
-    --color-detalhes: #e15113;
-    --color-line: #b4b3b3
+:root {
+  --branco: #ffffff;
+  --cinza: #4f4f4f;
+  --color-detalhes: #e15113;
+  --color-line: #b4b3b3;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--branco);
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--branco);
 }
 
-header{
+header {
+  display: flex;
+  padding: 1rem;
+  background-color: var(--branco);
+}
+
+.checkout-header {
     display: flex;
-    padding: 1rem;
-    background-color: var(--branco);
+    flex-direction: row;
+}
+.fa-solid {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  margin-left: 11rem;
+  margin-top: 0.5rem;
 }
 
-.icons{
-    display: flex;
-    align-items: center;
-    margin-top: 1.3rem;
-    margin-left: 5rem;
-    margin-right: 2rem;
-}
-
-.fa-solid{
-    font-size: 1.5rem;
-}
-
-.container-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.title-header{
-    margin-top: 2rem;
-    font-size: 2.5rem;
-    color: var(--cinza);
-}
-
-blockquote{
-    margin-left: 0.2rem;
-    margin-top: 0.5rem;
-    font-size: 0.9rem;
-    color: #8f8f8f;
+.container-header {
+  display: flex;
+  flex-direction: column;
 
 }
 
-.home-color{
-    color: var(--color-detalhes);
+.title-header {
+  font-size: 2.5rem;
+  color: var(--cinza);
+  flex-direction: row;
+  margin-top: 3rem;
 }
 
-.checkout-main{
-    display: flex;
-    width: 100%;
-    margin-top: 2.5rem;
+blockquote {
+  margin-left: 0.2rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #8f8f8f;
 }
 
-.checkout-section{
-    width: 60%;
+.home-color {
+  color: var(--color-detalhes);
 }
 
-.quadrados{
-    display: flex;
-    justify-content: space-between;
-    width: 48%;
-    margin-left: 16.5rem;
-    margin-top: 1rem;
+.checkout-main {
+  display: flex;
+  width: 100%;
+  margin-top: 2.5rem;
 }
 
-.quadrado1{
-    display: flex;
-    background-color: var(--color-detalhes);
-    width: 2.5rem;
-    height: 2.5rem;    
-    border-radius: 0.3rem;
-    rotate: 46deg;    
-    text-align: center;
+.quadrados {
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+  margin-left: 16.5rem;
+  margin-top: 1rem;
 }
 
-.quadrado{
-    display: flex;
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 0.3rem;
-    border: var(--color-detalhes) solid 0.1rem;
-    rotate: 46deg;
-    text-align: center;
+.quadrado1 {
+  display: flex;
+  background-color: var(--color-detalhes);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  rotate: 46deg;
+  text-align: center;
 }
 
-.title-quadrado1{
-    display: flex;
-    text-align: center;
-    padding: 0.1rem;
-    font-size: 1rem;
-    color: var(--branco);
-    margin-top: 0.9rem;
-    margin-bottom: 1.4rem;
-    margin-left: 0.5rem;
-    rotate: -45deg;
-    
+.quadrado {
+  display: flex;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.3rem;
+  border: var(--color-detalhes) solid 0.1rem;
+  rotate: 46deg;
+  text-align: center;
 }
 
-.title-quadrado{
-    font-size: 1rem;
-    color: var(--color-detalhes);
-    margin-top: 0.5rem;
-    margin-top: 0.9rem;
-    margin-bottom: 1.4rem;
-    margin-left: 0.6rem;
-    rotate: -45deg;
+.title-quadrado1 {
+  display: flex;
+  text-align: center;
+  padding: 0.1rem;
+  font-size: 1rem;
+  color: var(--branco);
+  margin-top: 0.9rem;
+  margin-bottom: 1.4rem;
+  margin-left: 0.5rem;
+  rotate: -45deg;
 }
 
-.line{
-    width: 9rem;
-    height: 0.1rem;
-    border: var(--color-line) solid 0.1rem;
-    margin-top: 1.2rem;
+.title-quadrado {
+  font-size: 1rem;
+  color: var(--color-detalhes);
+  margin-top: 0.5rem;
+  margin-top: 0.9rem;
+  margin-bottom: 1.4rem;
+  margin-left: 0.6rem;
+  rotate: -45deg;
 }
 
-.title{
-    font-size: 0.9rem;
-    color: var(--cinza);
-    margin-top: 1rem;
-    display: flex;
-    justify-content: space-between;
-    width: 58%;
-    margin-left: 7.9rem;
-    margin-right: 4.3rem;
-    margin-top: 1rem;
-
+.line {
+  width: 9rem;
+  height: 0.1rem;
+  border: var(--color-line) solid 0.1rem;
+  margin-top: 1.2rem;
 }
 
-.order-section{
-    width: 50%;
+.title {
+  font-size: 0.9rem;
+  color: var(--cinza);
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  width: 58%;
+  margin-left: 7.9rem;
+  margin-right: 4.3rem;
+  margin-top: 1rem;
 }
 
-.line-divisao{
-    width: 46rem;
-    border: var(--color-line) solid 0.1rem;
-    margin-top: 1.2rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 4rem;
-    margin-left: 11rem;
+.line-divisao {
+  width: 46rem;
+  border: var(--color-line) solid 0.1rem;
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+  margin-left: 11rem;
 }
 
-form {
-    width: 100%;
-    max-width: 50rem;
-    margin: 0 auto;
-    background-color: var(--branco);
-    padding: 2rem;
-    margin-left: 9rem;
-    border-radius: 1rem;
-    margin-top: 1rem;
+.form-esquerda {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+  background-color: var(--branco);
+  padding: 2rem;
+  margin-left: 9rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
 }
 
 form fieldset {
-    padding: 0;
-    margin-bottom: 1.5rem;
-    border: none;
-    margin-top: 0.6rem;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  border: none;
+  margin-top: 0.6rem;
 }
 
-.contact, .delivery-information {
-    display: flex;
-    gap: 2rem;
-    width: 100%;
-    margin-bottom: 1rem;
+.contact,
+.delivery-information {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  margin-bottom: 1rem;
 }
 
-.contact-container, .delivery-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 1rem;
+.contact-container,
+.delivery-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 1rem;
 }
 
 form label {
-    margin-bottom: 0.5rem;
-    color: var(--cinza);
-    margin-left: 0.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--cinza);
+  margin-left: 0.3rem;
 }
 
 form legend {
-    font-weight: bold;
-    color: var(--cinza);
-    margin-bottom: 1rem;
+  font-weight: bold;
+  color: var(--cinza);
+  margin-bottom: 1rem;
 }
 
 .icon-andress {
-    margin-left: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 form input[type="text"],
@@ -209,164 +201,236 @@ form input[type="number"],
 form input[type="date"],
 form input[type="time"],
 form select {
-    width: 100%;
-    padding: 0.75rem;
-    border-radius: 0.5rem;
-    border: 1px solid var(--cinza);
-    transition: border-color 0.2s;
-    outline: none;
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--cinza);
+  transition: border-color 0.2s;
+  outline: none;
 }
 
 form input:focus {
-    border-color: var(--color-detalhes);
+  border-color: var(--color-detalhes);
 }
 
 form button {
-    cursor: pointer;
-    background-color: var(--color-detalhes);
-    color: var(--branco);
-    border: none;
-    width: 100%;
-    padding: 1rem;
-    font-size: 1.2rem;
-    border-radius: 0.5rem;
-    margin-top: 1rem;
+  cursor: pointer;
+  background-color: var(--color-detalhes);
+  color: var(--branco);
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
 }
-
 
 .container-order {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.title-principal, h1{
-    font-size: 1.6rem;
-    color: var(--cinza);
-    margin-bottom: 1rem;
+.title-principal,
+h1 {
+  font-size: 1.6rem;
+  color: var(--cinza);
+  margin-bottom: 1rem;
 }
 
 .line-delivery {
-    width: 38rem;
-    border: var(--color-line) solid 0.1rem;
-    margin-top: 1.2rem;
-    margin-bottom: 1.5rem;
+  width: 38rem;
+  border: var(--color-line) solid 0.1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
 .product-item {
-    display: flex;
-    width: 100%;
-    margin-top: 1rem;
-    flex-direction: row;
-
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+  flex-direction: row;
 }
 
-.product-title, h2{
-    display: flex;
-    font-size: 1.4rem;
-    color: var(--cinza);
-    margin-bottom: 1.2rem;
-    justify-content: space-between;
-    margin-right: 11rem;
+.product-title,
+h2 {
+  display: flex;
+  font-size: 1rem;
+  color: var(--cinza);
+  margin-bottom: 1.2rem;
+  margin-right: 10rem;
 }
 
 .product-img {
-    width: 7rem;
-    height: 7rem;
+  width: 7rem;
+  height: 7rem;
 }
 
 .product-description {
-    display: flex;
-    flex-direction: column;
-    margin-left: 3rem;
-    margin-top: 2.5rem;
-    color: var(--cinza);
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-top: 2.5rem;
+  color: var(--cinza);
 }
 
 p {
-    font-size: 1rem;
-    margin-bottom: 0.7rem;
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
 }
 
 .item-order {
-    margin-left: 4rem;
+  margin-left: 4rem;
 }
 
-.title-quality{
-    font-size: 1.2rem;
+.title-quality {
+  font-size: 1.2rem;
 }
 
 .text-order {
-    font-size: 1.2rem;
-    color: var(--cinza);
+  font-size: 1.2rem;
+  color: var(--cinza);
 }
 
 .item-quantity {
-    display: flex;
-    margin-top: 1rem;
-    gap: 1rem;
-
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
 }
 
 .quantity-button-1,
 .quantity-button-2 {
-    font-size: 1.5rem;
-    background-color: var(--branco);
-    border-radius: 0.2rem;
-    border: var(--color-detalhes) solid 0.1rem;
-    width: 1.7rem;
-    height: 1.7rem;
+  font-size: 1.5rem;
+  background-color: var(--branco);
+  border-radius: 0.2rem;
+  border: var(--color-detalhes) solid 0.1rem;
+  width: 1.7rem;
+  height: 1.7rem;
 }
 
-.quantity-button-1{
-    font-size: 1.4rem;
-    text-align: center;;
-    color: var(--color-detalhes);
-    margin-bottom: 1rem;
+.quantity-button-1 {
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--color-detalhes);
+  margin-bottom: 1rem;
 }
 
-.quantity-button-2{
-    font-size: 1.3rem;
-    text-align: center;
-    align-items: center;
-    color: var(--color-detalhes);
+.quantity-button-2 {
+  font-size: 1.3rem;
+  text-align: center;
+  align-items: center;
+  color: var(--color-detalhes);
 }
 
-.velue-quantity{
-    font-size: 1.5rem;
-    color: var(--cinza);
+.velue-quantity {
+  font-size: 1.5rem;
+  color: var(--cinza);
 }
+
 
 .forms-preco-order {
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 1rem;
+
 }
 
-.form-order{
-    display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
+.form-order {
+  display: flex;    
 }
 
 .order-form-1,
-.order-form-2{
-    margin-top: 1rem;
-    width: 9rem;
-    height: 3rem;
+.order-form-2 {
+  margin-top: 1rem;
+  width: 7rem;
+  height: 3rem;
 }
 
-.label-form{
-    font-size: 1.2rem;
-    color: var(--cinza);
+.label-form {
+  font-size: 1.2rem;
+  color: var(--cinza);
 }
 
 .preco {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
+  margin-right: 9rem;
+  margin-top: 2rem;
+
 }
 
 .line-order {
-    width: 38rem;
-    border: var(--color-line) solid 0.1rem;
-    margin-top: 1.2rem;
-    margin-bottom: 1.5rem;
+  width: 38rem;
+  border: var(--color-line) solid 0.1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+  
+}
+
+.subtotal,
+.shipping,
+.Vat-tax {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.title-subtotal,
+.title-shipping,
+.title-vat-tax {
+  font-size: 1rem;
+  color: var(--cinza);
+}
+
+.subtotal-value,
+.shipping-value,
+.vat-tax-value {
+  font-size: 0.9rem;
+  color: var(--cinza);
+}
+
+.subtotal-value {
+  margin-left: 13.3rem;
+}
+
+.shipping-value {
+  margin-left: 13rem;
+}
+
+.vat-tax-value {
+  margin-left: 14rem;
+}
+
+.line-velues {
+  width: 38rem;
+  border: var(--color-line) solid 0.1rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.value-total {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.title-value-total {
+  font-size: 1.3rem;
+  color: var(--cinza);
+}
+
+.vat-total-value {
+  font-size: 1rem;
+  color: var(--cinza);
+  margin-left: 14rem;
+}
+
+.form-container {
+  width: 60%;
+  display: flex;
+  gap: 2rem;
 }
